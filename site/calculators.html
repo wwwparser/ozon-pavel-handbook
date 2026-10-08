@@ -1,0 +1,18 @@
+<h2>Калькуляторы экономики</h2>
+<p>Четыре исторические модели из Excel-файлов Павла. Первые значения взяты из исходных примеров. Замените их своими подтверждёнными расходами. <a href="#10-tablicy">Как устроены формулы и что исправлено</a>.</p>
+<div class="calculator">
+<label>Исходная таблица<select id="calc-model"></select></label>
+<p class="small"><a id="calc-source" href="https://t.me/prodavecpavel/7">Публикация исходного файла</a> · Тарифы исторические; актуальность проверяйте отдельно.</p>
+<label hidden>Диапазон объёма из исходного справочника<select id="volume-rate"></select></label>
+<form id="calculator-form" class="calc-fields"></form>
+<p id="calc-error" class="calc-error" role="alert"></p>
+<div id="calc-results" aria-live="polite"></div>
+<div class="calc-actions"><button id="reset-calc" type="button">Вернуть пример Excel</button><button id="export-calc" type="button">Скачать расчёт CSV</button></div>
+</div>
+<h3>Закупка из Китая: стоимость получения</h3>
+<p>Учебная модель редактора по методике видео о 1688. Учитывает закупку, вес и доставку, упаковку, документы и дополнительные расходы. Не определяет порядок ввоза и налоги. Ставки вводите из своего предложения поставщика.</p>
+<div class="calculator" id="china-calculator"><form class="calc-fields"></form><div class="result" aria-live="polite"></div></div>
+<h3>Фактический результат магазина за период</h3>
+<p>Сначала суммируйте начисления одного периода и расходы, ещё не удержанные из выбранной суммы. Отмены, возвраты и услуги площадки должны быть учтены один раз. Этот калькулятор не подключается к кабинету.</p>
+<div class="calculator" id="actual-calculator"><form class="calc-fields"></form><div class="result" aria-live="polite"></div></div>
+<p>Исходные Excel для сравнения: <a href="downloads/7.xlsx">Ozon 2025</a> · <a href="downloads/25.xlsx">WB</a> · <a href="downloads/34.xlsx">Ozon до 300 ₽</a> · <a href="downloads/35.xlsx">Ozon от 301 ₽</a>.</p>

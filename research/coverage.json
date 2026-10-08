@@ -1,0 +1,24 @@
+{
+  "telegram_messages": 72,
+  "telegram_with_text": 62,
+  "telegram_registered": 72,
+  "youtube_videos": 24,
+  "youtube_transcripts": 24,
+  "youtube_tabs": {
+    "videos": {
+      "count": 20,
+      "channel": "Продавец Павел",
+      "channel_id": "UC5tAl2FVOlFQxHVB67GrleQ"
+    },
+    "shorts": {
+      "count": 4,
+      "channel": "Продавец Павел",
+      "channel_id": "UC5tAl2FVOlFQxHVB67GrleQ"
+    },
+    "streams": {
+      "error": "ERROR: [youtube:tab] @prodavec_pavel: This channel does not have a streams tab"
+    }
+  },
+  "tables_analyzed": 4,
+  "telegram_photos_reviewed": 27
+}

@@ -1,0 +1,7 @@
+.env
+*.session*
+__pycache__/
+.venv/
+data/
+*cookies*.txt
+*.log

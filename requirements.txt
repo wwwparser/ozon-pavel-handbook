@@ -1,0 +1,4 @@
+telethon>=1.36,<2
+PySocks>=1.7,<2
+Markdown>=3.6,<4
+openpyxl>=3.1,<4
